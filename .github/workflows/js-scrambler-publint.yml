@@ -13,5 +13,5 @@ jobs:
         node-version: '18.x'
         registry-url: 'https://registry.npmjs.org'
     - run: yarn install --frozen-lockfile
-    - run: yarn workspace @kanamone/js-scrambler run build
-    - run: yarn workspace @kanamone/js-scrambler run publint
+    - run: yarn run build
+    - run: yarn run publint
