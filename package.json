@@ -21,7 +21,8 @@
     "build": "tsup src/index.ts",
     "lint": "eslint -c .eslintrc.yml",
     "publint": "publint",
-    "prepublishOnly": "pnpm run build"
+    "prepublishOnly": "pnpm run build",
+    "release": "changeset publish"
   },
   "files": [
     "dist"
