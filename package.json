@@ -5,6 +5,11 @@
   "author": "AOKI Yuto <aoki@u-ne.co>",
   "license": "MIT",
   "type": "module",
+  "private": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "main": "dist/index.cjs",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
