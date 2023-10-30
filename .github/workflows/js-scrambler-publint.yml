@@ -12,9 +12,6 @@ jobs:
       with:
         node-version: '18.x'
         registry-url: 'https://registry.npmjs.org'
-    - uses: pnpm/action-setup@v2
-      with:
-        version: 8
-    - run: pnpm install
-    - run: pnpm build
-    - run: pnpm publint
+    - run: npm install
+    - run: npm run build
+    - run: npm run publint
