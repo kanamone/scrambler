@@ -1,4 +1,4 @@
-name: run test and lint
+name: packages/js-scrambler test
 
 on: [push, pull_request]
 
@@ -13,4 +13,4 @@ jobs:
         node-version: '18.x'
         registry-url: 'https://registry.npmjs.org'
     - run: yarn install --frozen-lockfile
-    - run: yarn run test
+    - run: yarn workspace @kanamone/js-scrambler run test
