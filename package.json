@@ -1,7 +1,10 @@
 {
   "name": "@kanamone/scrambler",
   "version": "0.0.9",
-  "repository": "https://github.com/kanamone/scrambler",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kanamone/scrambler.git"
+  },
   "author": "AOKI Yuto <aoki@u-ne.co>",
   "license": "MIT",
   "type": "module",
