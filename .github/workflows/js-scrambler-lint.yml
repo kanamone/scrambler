@@ -12,5 +12,8 @@ jobs:
       with:
         node-version: '18.x'
         registry-url: 'https://registry.npmjs.org'
-    - run: yarn install --frozen-lockfile
-    - run: yarn run lint
+    - uses: pnpm/action-setup@v2
+      with:
+        version: 8
+    - run: pnpm install
+    - run: pnpm lint
