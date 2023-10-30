@@ -1,5 +1,11 @@
 # @kanamone/js-scrambler
 
+## 0.0.10
+
+### Patch Changes
+
+- 7ebce09: README.md にインストール用のドキュメントを追加
+
 ## 0.0.9
 
 ### Patch Changes
