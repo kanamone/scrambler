@@ -1,18 +1,10 @@
-# @japan-d2/scrambler
+# @kanamone/scrambler
 
 Converts an integer to another integer that is unpredictable and reversible.
 
 # install
 
-```bash
-npm install @japan-d2/scrambler
-```
-
-or
-
-```bash
-yarn add @japan-d2/scrambler
-```
+coming soon....
 
 # how to use
 
