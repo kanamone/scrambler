@@ -27,7 +27,7 @@ coming soon....
 ## example
 
 ```ts
-import { createScrambler } from '@japan-d2/scrambler'
+import { createScrambler } from '@kanamone/scrambler'
 
 const scrambler = createScrambler({
   digits: 4,
