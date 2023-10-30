@@ -29,7 +29,7 @@
     "build": "tsup src/index.ts",
     "lint": "eslint -c .eslintrc.yml",
     "publint": "publint",
-    "prepublishOnly": "npm run build",
+    "prepublishOnly": "pnpm run build",
     "release": "changeset publish"
   },
   "files": [
