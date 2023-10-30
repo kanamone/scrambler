@@ -2,6 +2,7 @@
 /* eslint-disable node/no-unpublished-import */
 
 import { createScrambler, splitDigits, joinDigits, swapDigits, restoreSwapDigits } from '../src/index'
+import { describe, it, expect } from 'vitest'
 
 describe('createScrambler', () => {
   describe('5 digit or less', () => {
