@@ -1,7 +1,7 @@
 {
   "name": "@kanamone/scrambler",
   "version": "0.0.8",
-  "repository": "https://github.com/kanamone/js-scrambler",
+  "repository": "https://github.com/kanamone/scrambler",
   "author": "AOKI Yuto <aoki@u-ne.co>",
   "license": "MIT",
   "type": "module",
