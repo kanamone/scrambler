@@ -4,7 +4,22 @@ Converts an integer to another integer that is unpredictable and reversible.
 
 # install
 
-coming soon....
+## use npm
+```bash
+npm install @kanaomone/scrambler
+```
+
+## use yarn
+
+```bash
+yarn add @kanamone/scrambler
+```
+
+## use pnpm
+
+```bash
+pnpm add @kanamone/scrambler
+```
 
 # how to use
 
