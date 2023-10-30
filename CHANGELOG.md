@@ -1,5 +1,11 @@
 # @kanamone/js-scrambler
 
+## 0.0.7
+
+### Patch Changes
+
+- b498a56: @kanamone/js-scrambler から@kanamone/scrambler にパッケージ名を変更
+
 ## 0.0.6
 
 ### Patch Changes
