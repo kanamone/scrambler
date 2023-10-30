@@ -1,5 +1,11 @@
 # @kanamone/js-scrambler
 
+## 0.0.9
+
+### Patch Changes
+
+- 8e7b416: package.json の repository url を修正
+
 ## 0.0.8
 
 ### Patch Changes
