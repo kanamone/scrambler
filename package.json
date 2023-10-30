@@ -2,8 +2,6 @@
   "name": "js-scrambler-root",
   "version": "0.0.5",
   "description": "Converts an integer to another integer that is unpredictable and reversible.",
-  "main": "lib/index.js",
-  "typings": "lib/index.d.ts",
   "private": true,
   "workspaces": [
     "packages/js-scrambler"

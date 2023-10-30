@@ -2,7 +2,7 @@
   "name": "@kanamone/js-scrambler",
   "version": "0.0.5",
   "repository": "https://github.com/kanamone/js-scrambler",
-  "author": "AOKI Yuto <yuto.aoki@japan-d2.com> (https://japan-d2.com)",
+  "author": "AOKI Yuto <aoki@u-ne.co>",
   "license": "MIT",
   "type": "module",
   "main": "dist/index.cjs",
@@ -29,7 +29,6 @@
   "keywords": [
     "Scrambler"
   ],
-  "homepage": "https://github.com/japan-d2/js-scrambler",
   "engines": {
     "node": ">=18.0.0"
   },
