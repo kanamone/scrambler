@@ -2,25 +2,34 @@
   "name": "@kanamone/js-scrambler",
   "version": "0.0.5",
   "repository": "https://github.com/kanamone/js-scrambler",
-  "author": "AOKI Yuto <aoki@u-ne.co>",
+  "author": "AOKI Yuto <yuto.aoki@japan-d2.com> (https://japan-d2.com)",
   "license": "MIT",
   "type": "module",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "node": "./dist/index.cjs",
+      "default": "./dist/index.js"
+    }
+  },
   "scripts": {
     "test": "vitest run",
-    "build": "tsc -p tsconfig.build.json",
+    "build": "tsup src/index.ts",
+    "lint": "eslint -c .eslintrc.yml",
+    "publint": "publint",
     "prepublishOnly": "npm run build"
   },
   "files": [
-    "lib"
+    "dist"
   ],
   "keywords": [
     "Scrambler"
   ],
-  "author": "AOKI Yuto <yuto.aoki@japan-d2.com> (https://japan-d2.com)",
   "homepage": "https://github.com/japan-d2/js-scrambler",
-  "license": "MIT",
   "engines": {
     "node": ">=18.0.0"
   },
@@ -34,7 +43,9 @@
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-standard": "^5.0.0",
+    "publint": "0.2.5",
     "ts-node": "^10.1.0",
+    "tsup": "7.2.0",
     "typescript": "^4.3.5",
     "vitest": "0.34.6"
   }
