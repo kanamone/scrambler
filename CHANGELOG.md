@@ -1,5 +1,11 @@
 # @kanamone/js-scrambler
 
+## 0.0.8
+
+### Patch Changes
+
+- bb99038: publish config を package.json に追加
+
 ## 0.0.7
 
 ### Patch Changes
