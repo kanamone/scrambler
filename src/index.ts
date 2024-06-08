@@ -76,8 +76,8 @@ export function createScrambler ({ digits, n1, n2, seed, stages }: ScramblerInpu
   const tables = generateTables(digits, stages, seed)
 
   return {
-    scramble (n1): bigint {
-      let n = n1
+    scramble (n0): bigint {
+      let n = n0
       for (const table of tables) {
         const multiplied = splitDigits(n * n1 % modulo, digits)
         const swapped = swapDigits(multiplied, table)
@@ -87,8 +87,8 @@ export function createScrambler ({ digits, n1, n2, seed, stages }: ScramblerInpu
 
       return n
     },
-    restore (n1): bigint {
-      let n = n1
+    restore (n0): bigint {
+      let n = n0
       for (const table of [...tables].reverse()) {
         const slideRestored = slideDigits(splitDigits(n, digits), table, -1)
         const swapRestored = restoreSwapDigits(slideRestored, table)

@@ -23,7 +23,7 @@ describe('createScrambler', () => {
           const scrambler = createScrambler({
             digits: x,
             n1: BigInt('9'),
-            n2: BigInt('8'.repeat(x - 1) + '9'),
+            n2: BigInt(`${'8'.repeat(x - 1)}9`),
             seed: 713947652327,
             stages: 1
           })
@@ -42,7 +42,7 @@ describe('createScrambler', () => {
           const scrambler = createScrambler({
             digits: x,
             n1: BigInt('9'),
-            n2: BigInt('8'.repeat(x - 1) + '9'),
+            n2: BigInt(`${'8'.repeat(x - 1)}9`),
             seed: 713947652327,
             stages: 1
           })
@@ -64,7 +64,7 @@ describe('createScrambler', () => {
           const scrambler = createScrambler({
             digits: x,
             n1: BigInt('9'),
-            n2: BigInt('8'.repeat(x - 1) + '9'),
+            n2: BigInt(`${'8'.repeat(x - 1)}9`),
             seed: 713947652327,
             stages: 1
           })
