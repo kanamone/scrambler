@@ -1,5 +1,6 @@
-// scrambler DEFINITION INPUT
+#!/usr/bin/env node
 
+// eslint-disable-next-line node/shebang
 import { createScrambler } from '.'
 
 // DEFINITION FORMAT:
