@@ -1,6 +1,6 @@
 {
   "name": "@kanamone/scrambler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/kanamone/scrambler.git"
@@ -16,9 +16,7 @@
   "main": "dist/index.cjs",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
-  "bin": {
-    "scrambler": "./dist/cli.js"
-  },
+  "bin": "./dist/cli.js",
   "exports": {
     ".": {
       "import": "./dist/index.js",
