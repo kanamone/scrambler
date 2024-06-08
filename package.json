@@ -1,6 +1,6 @@
 {
   "name": "@kanamone/scrambler",
-  "version": "0.0.10",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/kanamone/scrambler.git"
@@ -16,6 +16,9 @@
   "main": "dist/index.cjs",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
+  "bin": {
+    "scrambler": "./dist/cli.js"
+  },
   "exports": {
     ".": {
       "import": "./dist/index.js",
@@ -27,9 +30,9 @@
   "scripts": {
     "test": "vitest run",
     "build": "tsup src/index.ts",
+    "build:cli": "tsup src/cli.ts",
     "lint": "eslint -c .eslintrc.yml",
     "publint": "publint",
-    "prepublishOnly": "pnpm run build",
     "release": "changeset publish"
   },
   "files": [
