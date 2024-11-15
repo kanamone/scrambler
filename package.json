@@ -27,8 +27,7 @@
   },
   "scripts": {
     "test": "vitest run",
-    "build": "tsup src/index.ts",
-    "build:cli": "tsup src/cli.ts",
+    "build": "tsup",
     "lint": "eslint -c .eslintrc.yml",
     "publint": "publint",
     "release": "changeset publish"
