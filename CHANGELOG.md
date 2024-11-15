@@ -1,5 +1,11 @@
 # @kanamone/js-scrambler
 
+## 1.0.6
+
+### Patch Changes
+
+- 5534533: tsup の entry に index と cli を入れる
+
 ## 0.0.10
 
 ### Patch Changes
